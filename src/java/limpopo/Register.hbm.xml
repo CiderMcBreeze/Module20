@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="limpopo.Register" catalog="setaproject" table="register">
+        
+<id name="studentID" column="studentID" type="java.lang.Integer">
+
+    <generator class="identity"/>
+
+</id>
+
+<property name="name" column="name" type="string"/>
+<property name="surname" column="surname" type="string"/>
+<property name="address" column="address" type="string"/>
+<property name="cellnumber" column="cellnumber" type="string"/>
+<property name="email" column="email" type="string"/>
+<property name="gender" column="gender" type="string"/>
+<property name="circuit" column="circuit" type="string"/>
+<property name="age" column="age" type="java.lang.Integer"/>
+        
+    </class>
+</hibernate-mapping>

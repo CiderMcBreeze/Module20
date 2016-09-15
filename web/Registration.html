@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Registration form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="Hom.css" title="andreas07" media="screen,projection" />
+    </head>
+    <body>
+        <div id="wrap">
+            
+        <div id="leftside">
+	<h1>Limpopo Department of Education</h1>
+        <h2>To Excel Bright Future</h2>	
+
+	<div id="menu">
+		<a href="Home.html">Home</a>
+		<a class="active" href="#">Registration</a>
+                <a href="Mission.html">Mission</a>
+                <a href="About.html">About Us</a>
+                
+		
+	</div>
+        </div>
+            <div>
+                <form id="learner" action="post" name="center" >
+                <img src="img/example.jpg" width="512" height="160" alt="image example" />
+            </div>
+            
+        <div id ="Right">
+		<table id="content" >
+                <h2>Learner</h2>
+                <br/>
+                Name: <input type="text" name="name" id="username" /><br/><br/>
+                Surname: <input type="text" name="surname" id="password" /><br/><br/>
+                Identity Number: <input type="text" name="idno" id="idno" /><br/><br/>
+                Age: <input type="number" name="age" id="age" /><br/><br/>
+                <label>Gender</label><input type ="radio" name ="gender" value ="Male" checked=""/>Male <input type ="radio" name ="gender" value ="Female"/>Female<br/><br/><br/>
+                Address: <input type="text" name="address" id="address" /><br/><br/>
+                Cell Number: <input type="text" name="cellnumber" id="cellnumber" /><br/><br/>
+                District: <input type="text" name="didtrict" id="district" /><br/><br/>
+                <label>Stream</label><input type ="radio" name ="stream" value ="Physical Science" checked=""/>Physical Science<input type ="radio" name ="stream" value ="Accounting"/>Accounting<input type ="radio" name ="stream" value ="History" checked=""/>History<br/><br/><br/>
+
+
+                <h2>Guardian</h2>
+                <br/>
+                Name: <input type="text" name="name" id="name" /><br/><br/>
+                Surname: <input type="text" name="surname" id="surname" /><br/><br/>
+                Identity Number: <input type="text" name="gidno" id="gidno" /><br/><br/>
+                Relation: <input type="text" name="relation" id="relation" /><br/><br/>
+                Cell Number: <input type="text" name="cell" id="cell" /><br/><br/>
+                
+            </form>
+            <input type="button" value="Save" id="submit" onclick="validate()"/> <input type ="button" value="Sign-up" onclick="test()"/><br/><br/>
+                <a href ="change.xhtml">Change password? </a>
+            </table>
+        </div>
+        
+        </div>
+    </body>
+</html>
